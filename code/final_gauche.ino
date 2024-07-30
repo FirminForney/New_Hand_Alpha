@@ -92,7 +92,7 @@ if(bp1 == 0 && etat == 0){
 
 
 void ferme(){
-servo3.write(96);
+servo3.write(84);
 delay(50);
 doigt2.write(0);
 doigt1.write(0);
@@ -103,7 +103,7 @@ doigt3.write(0);
 }
 
 void ouvre(){
-servo3.write(0);
+servo3.write(180);
 doigt2.write(180);
 doigt1.write(180);
 doigt3.write(180);
@@ -114,7 +114,7 @@ delay(500);
 }
 
 void fpince(){
-servo3.write(96);
+servo3.write(84);
 delay(50);
 doigt2.write(0);
 doigt1.write(0);
@@ -126,7 +126,7 @@ delay(500);
 }
 
 void opince(){
-servo3.write(96);
+servo3.write(84);
 doigt2.write(0);
 doigt1.write(180);
 doigt3.write(0);
