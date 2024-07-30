@@ -1,3 +1,9 @@
+## Licence
+
+Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).
+
+
+
 New Hand : La prothèse bionique open source à imprimer soi-même
 
 Bienvenue sur le dépôt GitHub de New Hand ! Ce projet a pour objectif de rendre les prothèses bioniques accessibles à tous, grâce à l'impression 3D et aux technologies open source.
