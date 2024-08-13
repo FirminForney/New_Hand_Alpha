@@ -1,5 +1,3 @@
-/*Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).*/
-
 #include <Servo.h>
 
 
@@ -23,6 +21,8 @@ void setup() {
  Serial.begin(9600);
  pinMode(A0, INPUT_PULLUP);
  pinMode(A1, INPUT_PULLUP);
+ pinMode(8, OUTPUT);
+ pinMode(7, OUTPUT);
  ouvre();
  delay(500);
 
