@@ -1,5 +1,3 @@
-/*Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/).*/
-
 #include <Servo.h>
 
 
@@ -23,6 +21,8 @@ void setup() {
  Serial.begin(9600);
  pinMode(A0, INPUT_PULLUP);
  pinMode(A1, INPUT_PULLUP);
+ pinMode(8, OUTPUT);
+ pinMode(7, OUTPUT);
  ouvre();
  delay(500);
 
@@ -54,7 +54,7 @@ if(bp2 == 0 && mode == 1 ){
 
 bp1 = digitalRead(A0);
 delay(50);
-Serial.println(bp1);
+
 
 if(bp1 == 0 && etat == 1){
  delay(1500);
@@ -66,7 +66,7 @@ if(bp1 == 0 && etat == 1){
  }
  etat = 0;
 delay(1000);
- Serial.println(bp1);
+
  bp1 = 1;
  
 }
@@ -84,7 +84,7 @@ if(bp1 == 0 && etat == 0){
  }
  etat = 1;
  delay(1000);
- Serial.println(bp1);
+ 
  bp1 = 1;
 
 }
