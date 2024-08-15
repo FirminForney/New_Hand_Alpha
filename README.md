@@ -4,12 +4,12 @@ Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 Inter
 
 
 
-New Hand : La prothèse bionique open source à imprimer soi-même
+New Hand : Le projet de main bionique open source à imprimer soi-même
 
-Bienvenue sur le dépôt GitHub de New Hand ! Ce projet a pour objectif de rendre les prothèses bioniques accessibles à tous, grâce à l'impression 3D et aux technologies open source.
+Bienvenue sur le dépôt GitHub de New Hand ! Ce projet a pour objectif de rendre les équipements bioniques accessibles à tous, grâce à l'impression 3D et aux technologies open source.
 
 À propos de New Hand
-New Hand est une prothèse de main bionique conçue pour être :
+New Hand est une main bionique conçue pour être :
 
 Abordable : fabriquée avec des matériaux peu coûteux et imprimable en 3D.
 
@@ -25,18 +25,18 @@ New Hand est contrôlée par un système de capteurs de pression et de moteurs a
 Comment contribuer ?
 Nous sommes convaincus que l'intelligence collective peut faire avancer les choses plus rapidement. Vous pouvez contribuer au projet de différentes manières :
 
-Tester et donner votre avis : Imprimez et assemblez la prothèse, puis partagez vos retours d'expérience avec les créateurs.
+Tester et donner votre avis : Imprimez et assemblez la main, puis partagez vos retours d'expérience avec les créateurs.
 
 Améliorer la conception : Proposez des modifications, des corrections ou de nouvelles fonctionnalités.
 
-Développer le code : Aidez-nous à améliorer le logiciel de contrôle de la prothèse.
+Développer le code : Aidez-nous à améliorer le logiciel de contrôle de la main.
 
 Partager vos réalisations : Montrez-nous comment vous avez personnalisé votre New Hand et inspirez les autres utilisateurs.
 
 Nous rejoindre
 Rejoignez notre communauté de makers, d'ingénieurs et de passionnés pour faire de New Hand une prothèse encore plus performante et accessible à tous.
 
-Ensemble, nous pouvons changer la vie des personnes amputées !
+Ensemble, nous pouvons changer le monde du bionique !
 
 Avertissement : New Hand Alpha est un prototype. Il est possible que certaines fonctionnalités ne soient pas encore entièrement optimisées et que des améliorations soient apportées au fil du temps.
 Nous vous encourageons à partager vos retours d'expérience et vos suggestions pour nous aider à améliorer New Hand.
