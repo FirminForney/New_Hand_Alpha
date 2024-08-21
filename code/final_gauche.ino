@@ -23,6 +23,8 @@ void setup() {
  pinMode(A1, INPUT_PULLUP);
  pinMode(8, OUTPUT);
  pinMode(7, OUTPUT);
+ digitalWrite(8, HIGH);
+ digitalWrite(7, HIGH);
  ouvre();
  delay(500);
 
