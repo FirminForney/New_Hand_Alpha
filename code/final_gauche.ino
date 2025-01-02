@@ -1,14 +1,17 @@
 #include <Servo.h>
 
+// Angle maximal des servomoteurs
+int angleMax = 180;  
+
 // Variables pour stocker l'état des boutons poussoirs
 int bp1;  
 int bp2; 
 
-// État de la main : 1 = ouverte, 0 = fermée
-int etat = 1;  
+// État de la main : true = ouverte, false = fermée
+bool etatMain = true;  
 
-// Mode de la main : 0 = normal, 1 = pince
-int mode = 0;  
+// Mode de la main : false = normal, true = pince
+bool modePince = false;  
 
 // Déclaration des servomoteurs
 Servo doigt2;  
@@ -106,10 +109,10 @@ void ferme() {
 
 // Fonction pour ouvrir la main
 void ouvre() { 
-  servo3.write(180);
-  doigt2.write(180);
-  doigt1.write(180);
-  doigt3.write(180);
+  servo3.write(angleMax);
+  doigt2.write(angleMax);
+  doigt1.write(angleMax);
+  doigt3.write(angleMax);
   delay(500);
 }
 
@@ -127,6 +130,6 @@ void fpince() {
 void opince() { 
   servo3.write(84);
   doigt2.write(0);
-  doigt1.write(180);
+  doigt1.write(angleMax);
   doigt3.write(0);
 }
