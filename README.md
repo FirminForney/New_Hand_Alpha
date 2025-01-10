@@ -6,7 +6,7 @@ Ce projet est sous licence [Creative Commons Attribution-NonCommercial 4.0 Inter
 
 New Hand : Le projet de main bionique open source à imprimer soi-même
 
-Bienvenue sur le dépôt GitHub de New Hand ! Ce projet a pour objectif de rendre les équipements bioniques accessibles à tous, grâce à l'impression 3D et aux technologies open source.
+Bienvenue sur le dépôt GitHub de New Hand. Ce projet a pour objectif de rendre les équipements bioniques accessibles à tous, grâce à l'impression 3D et aux technologies open source.
 
 À propos de New Hand
 New Hand est une main bionique conçue pour être :
